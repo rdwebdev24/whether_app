@@ -15,13 +15,13 @@ function Main() {
           console.log(err,"err");
         })
      }, [city]);
+
+     console.log(whether);
  
   return (
     <div className="main d-flex justify-content-center align-items-center" style={{height:"91vh"}}>
       <div className="card p-4" style={{ maxWidth: "18rem" }}>
-      <form className="d-flex">
-        <input className="form-control me-2" value={city}  onChange={(e)=>setCity(e.target.value)} type="search" placeholder="City" aria-label="Search"/>
-      </form> 
+      <input className="input" type="text" value={city} onChange={(e)=>setCity(e.target.value)}/>
       {whether.success?<div className="card-body">
           <img className="rounded-pill" src="https://cdn.dribbble.com/users/580699/screenshots/2934892/summer.gif" alt="" width={200}/>
           <h2 className="card-text py-3">

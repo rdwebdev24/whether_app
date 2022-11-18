@@ -9,6 +9,11 @@ function App() {
     <div className="App">
       <Navbar/>
      <Main/>
+     <div class="ocean">
+  <div class="wave"></div>
+  <div class="wave"></div>
+  <div class="wave"></div>
+</div>
     </div>
   );
 }

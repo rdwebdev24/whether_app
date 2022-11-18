@@ -12,7 +12,7 @@ function Navbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link" href="https://rdwebdev24.vercel.app/" target="_blank">Visit rdwebdev <i class="fa fa-external-link" aria-hidden="true"></i></a>
+          <a className="nav-link" href="https://rdwebdev24.vercel.app/" target="_blank">Visit rdwebdev <i className="fa fa-external-link" aria-hidden="true"></i></a>
         </li>
       </ul>
     </div>
