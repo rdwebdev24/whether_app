@@ -1,6 +1,9 @@
 .App{
   text-align: center;
 }
+body{
+  overflow: hidden;
+}
 .navbar{
   background: rgb(13, 72, 131) !important;
   box-shadow: 0 1px 10px rgb(7, 61, 114);
