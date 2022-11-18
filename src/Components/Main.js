@@ -5,7 +5,7 @@ function Main() {
   const [whether , setWhether] = useState({success:false,error:"error",data:[]})
 
   useEffect( async () => {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b9ae852a2cf09d11b82db5bf55df6f30`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b9ae852a2cf09d11b82db5bf55df6f30`)
     .then((response) => response.json())
     .then((data) => {
         if(data.cod=='404'){setWhether({...whether,error:data.message})}
